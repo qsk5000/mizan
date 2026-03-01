@@ -1,8 +1,8 @@
-import ‘dart:async’;
-import ‘package:flutter/material.dart’;
-import ‘package:flutter/services.dart’;
-import ‘package:webview_flutter/webview_flutter.dart’;
-import ‘package:connectivity_plus/connectivity_plus.dart’;
+import 'dart:async';
+import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
+import 'package:webview_flutter/webview_flutter.dart';
+import 'package:connectivity_plus/connectivity_plus.dart';
 
 void main() {
 WidgetsFlutterBinding.ensureInitialized();
@@ -135,8 +135,7 @@ letterSpacing: 1.2,
 ),
 ),
 const SizedBox(height: 8),
-Text(
-‘mizaniq.online’,
+Text('mizaniq.online',
 style: TextStyle(
 fontSize: 14,
 color: Colors.white.withOpacity(0.8),
